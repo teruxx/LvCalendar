@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/relativeLayout1">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/prevMonth"
+			android:text="@string/prevMonth">
+		</Button>
+		<TextView android:id="@+id/yearMonth" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="2012/01"
+			android:layout_centerHorizontal="true" android:textSize="24sp"
+			android:layout_centerVertical="true">
+		</TextView>
+		<Button android:layout_alignParentTop="true"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:id="@+id/nextMonth" android:layout_alignParentRight="true"
+			android:text="@string/nextMonth">
+		</Button>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+		android:paddingLeft="3dp" android:paddingRight="3dp">
+		<TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView android:gravity="center_horizontal" android:id="@+id/Sunday"
+				android:background="@color/red" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/sunday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+			<TextView android:gravity="center_horizontal" android:id="@+id/Monday"
+				android:background="@color/gray" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/monday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+			<TextView android:gravity="center_horizontal" android:id="@+id/Tuesday"
+				android:background="@color/gray" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/tuesday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+			<TextView android:gravity="center_horizontal" android:id="@+id/Wednesday"
+				android:background="@color/gray" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/wednesday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+			<TextView android:gravity="center_horizontal" android:id="@+id/Thursday"
+				android:background="@color/gray" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/thursday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+			<TextView android:gravity="center_horizontal" android:id="@+id/Friday"
+				android:background="@color/gray" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/friday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+			<TextView android:gravity="center_horizontal" android:id="@+id/Saturday"
+				android:background="@color/blue" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="@string/saturday"
+				android:layout_weight="1" android:textSize="16sp">
+			</TextView>
+		</TableRow>
+	</LinearLayout>
+	<GridView android:id="@+id/gridView1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</GridView>
+</LinearLayout>
