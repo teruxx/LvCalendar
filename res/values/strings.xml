@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Calendar App</string>
+  <string name="app_name">LvCalendar</string>
   <string name="sunday">Sun</string>
   <string name="monday">Mon</string>
   <string name="tuesday">Tue</string>
