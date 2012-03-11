@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.app.calendar"
+    package="jp.app.lvcalendar"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -11,14 +11,13 @@
         android:label="@string/app_name" >
         <activity
             android:label="@string/app_name"
-            android:name="app.lvcalendar.activity.CalendarActivity" >
+            android:name="jp.app.lvcalendar.activity.CalendarActivity">
             <intent-filter >
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <provider android:name="app.lvcalendar.db.EventProvider" android:authorities="app.lvcalendar.eventprovider" />
+         </activity>
+        <provider android:name="jp.app.lvcalendar.db.EventProvider" android:authorities="jp.app.lvcalendar.db.EventProvider" />        
     </application>
 
 </manifest>
